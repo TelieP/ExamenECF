@@ -19,14 +19,21 @@
         // On se connecte à la base de données 
         try{
             // On va instancie PDO
-            $db=new PDO($dsn,DBUSER,DBPASS);
+            $db=new PDO($dsn,DBUSER,DBPASS); 
+            // on s'assure d'envoyer les données en UTF8 ( pour permettre aux accents de bien s'afficher dans la  base de données )
+            $db->exec("SET NAMES utf8");
+
+            // on definit le mode de fetch par défaut 
+            $db->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE,PDO::FETCH_ASSOC);
+
             echo "on est connecté";
 
         }catch(PDOException $e){    // le catch est exécuté lorsqu'on a un probleme dans le try 
             die($e->getMessage());
 
         }
-
+  // on est connecté à la base de données 
+  
 
     ?>
 </body>

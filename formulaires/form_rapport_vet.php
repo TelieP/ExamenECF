@@ -28,7 +28,7 @@
                 <label for="prenom_animal">Prenom_animal</label>
                 <input type="text"  name="prenom_animal" id="prenom_animal">
                 <label for="rapport">Rapport</label>
-                <textarea></textarea>
+                <textarea id="contenu"></textarea>
             </div>
         </fieldset>
         <button type="submit"> Soumettre </button>
