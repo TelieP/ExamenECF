@@ -21,11 +21,11 @@
         <div class="container">
             <a href="#" class="logo"> ARCADIA  ZOO </a>
             <nav class="menu">
-                <a href="index.html"> Accueil </a>
-                <a href="services.html"> Services </a>
-                <a href="habitats.html"> Habitats </a>
-                <a href="connexion.html"> Connexion </a>
-                <a href="contact.html"> Contact </a>
+                <a href="index.php"> Accueil </a>
+                <a href="services.php"> Services </a>
+                <a href="habitats.php"> Habitats </a>
+                <a href="connexion.php"> Connexion </a>
+                <a href="contact.php"> Contact </a>
             </nav>
 
         </div>
@@ -54,14 +54,14 @@
         </article>
 
     </article>
-    <article class="col-md-4 col-lg-4 col-xs-12 col-sm-12">
+    <!-- <article class="col-md-4 col-lg-4 col-xs-12 col-sm-12">
 
      <img src="img/visite01.jpg" alt="resto imag">
      <img src="img/visite02.jpg" alt="resto img">
      <img src="img/visite03.jpg" alt="resto imag2">
      
 
-</article>
+</article> -->
 
 
          </div>

@@ -21,11 +21,11 @@
         <div class="container">
             <a href="#" class="logo"> ARCADIA  ZOO </a>
             <nav class="menu">
-                <a href="index.html"> Accueil </a>
-                <a href="services.html"> Services </a>
-                <a href="habitats.html"> Habitats </a>
-                <a href="connexion.html"> Connexion </a>
-                <a href="contact.html"> Contact </a>
+                <a href="index.php"> Accueil </a>
+                <a href="services.php"> Services </a>
+                <a href="habitats.php"> Habitats </a>
+                <a href="connexion.php"> Connexion </a>
+                <a href="contact.php"> Contact </a>
             </nav>
 
         </div>

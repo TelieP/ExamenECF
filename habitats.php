@@ -21,11 +21,11 @@
         <div class="container">
             <a href="#" class="logo"> ARCADIA  ZOO </a>
             <nav class="menu">
-                <a href="index.html"> Accueil </a>
-                <a href="services.html"> Services </a>
-                <a href="habitats.html"> Habitats </a>
-                <a href="connexion.html"> Connexion </a>
-                <a href="contact.html"> Contact </a>
+                <a href="index.php"> Accueil </a>
+                <a href="services.php"> Services </a>
+                <a href="habitats.php"> Habitats </a>
+                <a href="connexion.php"> Connexion </a>
+                <a href="contact.php"> Contact </a>
             </nav>
 
         </div>
@@ -38,9 +38,10 @@
         <div class="row">
             <article class="col-md-4 col-lg-4 col-xs-12 col-sm-12">
                 <h2>Habitats bio</h2>
-                <!--<img src="img/oiseaux.jpg" alt="image-oiseaux" class="oiseaux">-->
+                <!--<img src="img/oiseaux.jpg" alt="image-oiseaux" class="oiseaux"-->
                 <p>
-                    <img src="img/habita02.jpg" alt="habitat02" class="habiat02">
+                <!--
+                    <img src="img/habita02.jpg" alt="habitat02" class="habiat02">  -->
                     À Arcadia Zoo, nous sommes fiers de reproduire des environnements naturels qui respectent les besoins et les comportements
                     instinctifs de nos animaux. Chaque habitat est méticuleusement conçu pour offrir non seulement un espace de vie confortable 
                     et sécurisant, mais aussi pour éduquer et émerveiller nos visiteurs. Des prairies africaines où résident nos majestueux lions
@@ -58,13 +59,13 @@
                 Des chemins aménagés et des plateformes d'observation accessibles permettent à chacun de profiter pleinement de la visite. 
                 Notre personnel est formé pour assister les visiteurs ayant des besoins spécifiques, garantissant ainsi une expérience agréable 
                 et sans encombre pour tous nos invités.Nous veillons à ce que chaque pas dans notre zoo soit aussi magique que possible pour chaque visiteur. 
-                    <img src="img/habitat03.jpg" alt="habitat03"  class="habitat03">
+                   <!-- <img src="img/habitat03.jpg" alt="habitat03"  class="habitat03">  -->
                 </p>
             </article>
             <article class="col-md-4 col-lg-4 col-xs-12 col-sm-12">
                 <h2>restauration</h2>
                 <p>
-                    <img src="img/habitat04.jpg"  alt="habitat04"  class="habitat04">
+                <!--    <img src="img/habitat04.jpg"  alt="habitat04"  class="habitat04"> -->
                     Découvrez les divers habitats soigneusement recréés à Arcadia Zoo, où chaque espèce animale trouve un espace qui 
                     reflète son environnement naturel. Nos habitats sont conçus pour offrir une expérience immersive,
                     éducative et accessibles pour tous, y compris les personnes à mobilité réduite.

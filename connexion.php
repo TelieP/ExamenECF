@@ -16,6 +16,22 @@
 </head>
 <!--contenu du site-->
 <body>
+    <!--header-->
+    <header class="container-fluid  header">
+        <div class="container">
+            <a href="#" class="logo"> ARCADIA  ZOO </a>
+            <nav class="menu">
+                <a href="index.php"> Accueil </a>
+                <a href="services.php"> Services </a>
+                <a href="habitats.php"> Habitats </a>
+                <a href="connexion.php"> Connexion </a>
+                <a href="contact.php"> Contact </a>
+            </nav>
+
+        </div>
+    </header>
+
+     <!--end header-->
 
     <h1 class="h1_inscription"> CONNEXION </h1>
     <form class="form_conn"    method="post">
@@ -24,11 +40,14 @@
                 <label for="username">Username</label>
                 <input type="text" name="username"  id="username">
             </div>
+            </br>
             <div>
                 <label for="password">Password</label>
                 <input type="password" name="password"  id="password">
             </div>
         </fieldset>
+</br>
+</br>
         <button type="submit"> Se connecter </button>
     </form>
 
