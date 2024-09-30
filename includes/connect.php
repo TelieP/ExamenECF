@@ -26,7 +26,7 @@
             // on definit le mode de fetch par défaut 
             $db->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE,PDO::FETCH_ASSOC);
 
-            echo "on est connecté";
+            //echo "on est connecté";
 
         }catch(PDOException $e){    // le catch est exécuté lorsqu'on a un probleme dans le try 
             die($e->getMessage());

@@ -55,15 +55,17 @@
 if(!empty($_POST)){
 // on vérifie que tous les champs requis sont remplis
 if(isset($_POST["username"], $_POST["password"]) && !empty($_POST["username"]) && !empty($_POST["password"])){
-    die("le formulaire est incomplet !!!!");
-}
+ } 
+    else{
+        echo ("le formulaire est incomplet !!!!");
+    }
 }
 //on se connecte à la base de données 
 require_once "includes/connect.php";
-$sql="SELECT * FROM `utilisateur` WHERE `username`= :username";
+$sql="SELECT * FROM `utilisateur` WHERE `username`=:username";
 $query= $db ->prepare($sql);
 $query ->bindValue(":username" , $_POST["username"], PDO::PARAM_STR);
-$query ->bindValue(":password" , $_POST["password"], PDO::PARAM_STR);
+//$query ->bindValue(":password" , $_POST["password"], PDO::PARAM_STR);
 $query -> execute();
 $user= $query -> fetch();
 
@@ -81,7 +83,7 @@ if(!password_verify($_POST["password"] , $user["password"])){
 session_start();
 
 // on va maintenant stocker dans $_SESSION  les infos de l'utilisateur
-$_SESSION["utilisateur"]=[
+$_SESSION["user"]=[
     "id" => $user["id"],
     "pseudo" =>$user["username"],
     "role" => $user["role_id"]
@@ -90,7 +92,7 @@ $_SESSION["utilisateur"]=[
 var_dump($_SESSION);
 
 // on redirige vers la page profil
-//header("location:profil.php");
+header("Location:profil.php");
 
 ?>
 
